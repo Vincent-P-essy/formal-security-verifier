@@ -1,0 +1,16 @@
+{
+  "deterministic": true,
+  "elapsed_seconds": 0.0716,
+  "ground_truth_verified": true,
+  "iterations": 500,
+  "latency_pass_p50_ms": 0.1053,
+  "latency_pass_p95_ms": 0.1264,
+  "matched": 7,
+  "obligations": 7,
+  "refuted": 3,
+  "report_hash": "4cc8617f61f5fc53db8098573cef5bb5430988c64ae322c70e51acd131681395",
+  "source_revision": "reference",
+  "source_tree_state": "clean-checkout",
+  "total_states_explored": 63,
+  "verified": 4
+}
