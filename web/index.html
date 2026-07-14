@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formal Security Verifier</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Formal Security Verifier</h1>
+      <p id="subtitle">Prove security properties, or get a counterexample that disproves them.</p>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>Summary</h2>
+        <div id="summary" class="cards"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Obligations</h2>
+        <p class="hint">Click an obligation to run its checker and see the proof size or a counterexample.</p>
+        <div id="obligations" class="obligation-list"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Result</h2>
+        <div id="detail"><p class="hint">Select an obligation above.</p></div>
+      </section>
+    </main>
+
+    <footer>
+      <span id="meta"></span>
+      <a href="/docs">OpenAPI</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

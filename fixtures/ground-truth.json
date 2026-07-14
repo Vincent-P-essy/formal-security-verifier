@@ -1,0 +1,9 @@
+{
+  "correlation-no-false-negatives": "verified",
+  "jwt-missing-revocation-check": "refuted",
+  "jwt-revocation-safety": "verified",
+  "rbac-broken-hierarchy": "refuted",
+  "rbac-viewer-confinement": "verified",
+  "secret-leak-via-tool": "refuted",
+  "secret-non-exfiltration": "verified"
+}
