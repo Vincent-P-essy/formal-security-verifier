@@ -25,6 +25,12 @@ the unsafe ones* is the whole point — it distinguishes a real verifier from on
 that rubber-stamps everything. It is a portfolio-grade prototype; the value of a
 proof is bounded by how faithfully each small model abstracts a real design.
 
+## Running example
+
+![formal-security-verifier running locally](docs/screenshots/application.png)
+
+Seven verification obligations evaluated over the bundled state machine, including proof failures and counterexamples. [Commands and test results](docs/verification.md).
+
 ## Measured evidence
 
 | Measurement | Reviewed result | Scope |
