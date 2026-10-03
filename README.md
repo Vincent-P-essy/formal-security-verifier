@@ -25,11 +25,13 @@ the unsafe ones* is the whole point — it distinguishes a real verifier from on
 that rubber-stamps everything. It is a portfolio-grade prototype; the value of a
 proof is bounded by how faithfully each small model abstracts a real design.
 
-## Running example
+## Dashboard Preview
 
-![formal-security-verifier running locally](docs/screenshots/application.png)
+![Verification obligations and verdicts](docs/screenshots/dashboard-overview.png)
 
-Seven verification obligations evaluated over the bundled state machine, including proof failures and counterexamples. [Commands and test results](docs/verification.md).
+![Counterexample trace from the ungated agent model](docs/screenshots/verification-detail.png)
+
+Local verification of the repository’s finite security models, including a counterexample for the ungated agent.
 
 ## Measured evidence
 
